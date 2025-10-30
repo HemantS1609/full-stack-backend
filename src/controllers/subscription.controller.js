@@ -6,7 +6,9 @@ import { ApiResponse } from "../utils/ApiResponse.js";
 
 const toggleSubscription = asyncHandler(async (req, res) => {
   const { channelId } = req.params;
+
   const subscriberId = req.user?._id;
+
   // TODO: toggle subscription
   if (!isValidObjectId(channelId)) {
     throw new ApiError(400, "Invalid channel ID");
@@ -64,7 +66,7 @@ const getUserChannelSubscribers = asyncHandler(async (req, res) => {
         localField: "subscriber",
         foreignField: "_id",
         as: "subscriber",
-        pipeLine: [
+        pipeline: [
           {
             $lookup: {
               from: "subscriptions",
@@ -128,6 +130,8 @@ const getUserChannelSubscribers = asyncHandler(async (req, res) => {
 // controller to return channel list to which user has subscribed
 const getSubscribedChannels = asyncHandler(async (req, res) => {
   const { subscriberId } = req.params;
+  console.log("subscriberId", subscriberId);
+
   if (!isValidObjectId(subscriberId)) {
     throw new ApiError(400, "Invalid subscriber ID");
   }
