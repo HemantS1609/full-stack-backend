@@ -112,11 +112,10 @@ npm run dev
 Production mode:
 npm start
 
-
 Server will start on:
 ➡️ http://localhost:8000
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are always welcome!
 If you’d like to collaborate, fix bugs, or improve features, feel free to fork the repo and submit a pull request.
@@ -128,7 +127,7 @@ If you’d like to collaborate, fix bugs, or improve features, feel free to fork
 This project was inspired by the “Chai aur Code” YouTube channel and guided by Hitesh Choudhary’s exceptional backend development series.
 A heartfelt thanks for providing high-quality open education that empowers developers worldwide. ❤️
 
-🛡️ License
+## 🛡️ License
 
 This project is licensed under the MIT License — feel free to use, modify, and distribute it for personal or commercial purposes.
 
