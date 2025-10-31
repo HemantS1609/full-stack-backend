@@ -122,7 +122,7 @@ If you’d like to collaborate, fix bugs, or improve features, feel free to fork
 
 💬 You can also reach out directly if you’d like to work with me on this project.
 
-💡 Inspiration & Credits
+## 💡 Inspiration & Credits
 
 This project was inspired by the “Chai aur Code” YouTube channel and guided by Hitesh Choudhary’s exceptional backend development series.
 A heartfelt thanks for providing high-quality open education that empowers developers worldwide. ❤️
