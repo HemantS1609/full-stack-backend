@@ -62,65 +62,6 @@ by Hitesh Choudhary.
 
 ---
 
-## 🧩 Folder Structure
-
-project-root/
-│
-├── src/
-│ ├── controllers/
-│ │ ├── comment.controller.js
-│ │ ├── dashboard.controller.js
-│ │ ├── healthcheck.controller.js
-│ │ ├── like.controller.js
-│ │ ├── playlist.controller.js
-│ │ ├── subscription.controller.js
-│ │ ├── tweet.controller.js
-│ │ ├── user.controller.js
-│ │ └── video.controller.js
-│ │
-│ ├── models/
-│ │ ├── user.model.js
-│ │ ├── video.model.js
-│ │ ├── tweet.model.js
-│ │ ├── playlist.model.js
-│ │ ├── comment.model.js
-│ │ ├── like.model.js
-│ │ └── subscription.model.js
-│ │
-│ ├── utils/
-│ │ ├── asyncHandler.js
-│ │ ├── ApiResponse.js
-│ │ ├── ApiError.js
-│ │ └── cloudinary.js
-│ │
-│ ├── middlewares/
-│ │ ├── auth.middleware.js
-│ │ ├── error.middleware.js
-│ │ └── multer.middleware.js
-│ │
-│ ├── routes/
-│ │ ├── comment.routes.js
-│ │ ├── dashboard.routes.js
-│ │ ├── healthcheck.routes.js
-│ │ ├── like.routes.js
-│ │ ├── playlist.routes.js
-│ │ ├── subscription.routes.js
-│ │ ├── tweet.routes.js
-│ │ ├── user.routes.js
-│ │ └── video.routes.js
-│ │
-│ ├── config/
-│ │ ├── db.js
-│ │ └── cloudinary.js
-│ │
-│ ├── app.js
-│ └── server.js
-│
-├── .env
-├── package.json
-├── .gitignore
-└── README.md
-
 ## ⚙️ Tech Stack
 
 | Category          | Technology                              |
@@ -145,7 +86,7 @@ project-root/
 
 ---
 
-🧰 Setup & Installation
+## 🧰 Setup & Installation
 1️⃣ Clone the Repository
 git clone https://github.com/HemantS1609/full-stack-backend.git
 cd full-stack-backend
