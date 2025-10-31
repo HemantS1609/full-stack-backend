@@ -3,8 +3,8 @@
 A production-grade backend API for a full-featured video streaming platform — similar to YouTube.
 Built using Node.js, Express.js, and MongoDB, it supports user authentication, video management, likes, comments, subscriptions, playlists, and tweets.
 
-This project follows best backend architecture practices and was inspired by Chai aur Code
-by Hitesh Choudhary.
+This project follows best backend architecture practices and was inspired by **[Chai aur Code](https://www.youtube.com/@chaiaurcode)**
+by **[Hitesh Choudhary](https://hiteshchoudhary.com/)**.
 
 ---
 
@@ -136,4 +136,4 @@ A heartfelt thanks for providing high-quality open education that empowers devel
 ## 🛡️ License
 
 This project is licensed under the MIT License — feel free to use, modify, and distribute it for personal or commercial purposes.
-Credit: **Chai aur Code** **[Hitesh Choudhary]**
+Credit: **[Chai aur Code](https://www.youtube.com/@chaiaurcode)** **[Hitesh Choudhary](https://hiteshchoudhary.com/)**
