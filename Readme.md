@@ -94,12 +94,16 @@ by Hitesh Choudhary.
 git clone https://github.com/HemantS1609/full-stack-backend.git
 ```
 
-2️⃣ Install dependencies:
+2️⃣ **Install dependencies:**
+
+```bash
 cd full-stack-backend
 npm install
+```
 
-3️⃣ Set up environment variables:
+3️⃣ **_Set up environment variables:_**
 
+```bash
 Create a .env file in the root of your project and fill in the required values as shown below:
 
 PORT=8000
@@ -108,16 +112,14 @@ JWT_SECRET=your_secret_key
 CLOUDINARY_NAME=your_cloudinary_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
+```
 
-4️⃣ Start the server:
+4️⃣ **_Start the server:_**
+
+```bash
 Development mode:
 npm run dev
-
-Production mode:
-npm start
-
-Server will start on:
-➡️ http://localhost:8000
+```
 
 ## 🤝 Contributing
 
