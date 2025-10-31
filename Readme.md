@@ -86,9 +86,13 @@ by Hitesh Choudhary.
 
 ---
 
-⚙️ Installation and Setup
-1️⃣ Clone the repository:
+## ⚙️ Installation and Setup
+
+1️⃣ **Clone the repository:**
+
+```bash
 git clone https://github.com/HemantS1609/full-stack-backend.git
+```
 
 2️⃣ Install dependencies:
 cd full-stack-backend
@@ -124,11 +128,10 @@ If you’d like to collaborate, fix bugs, or improve features, feel free to fork
 
 ## 💡 Inspiration & Credits
 
-This project was inspired by the “Chai aur Code” YouTube channel and guided by Hitesh Choudhary’s exceptional backend development series.
+This project was inspired by the [Chai aur Code](https://www.youtube.com/@chaiaurcode) YouTube channel and guided by Hitesh Choudhary’s exceptional backend development series.
 A heartfelt thanks for providing high-quality open education that empowers developers worldwide. ❤️
 
 ## 🛡️ License
 
 This project is licensed under the MIT License — feel free to use, modify, and distribute it for personal or commercial purposes.
-
-Credit: Chai aur Code by Hitesh Choudhary
+Credit: **Chai aur Code** **[Hitesh Choudhary]**
