@@ -86,17 +86,17 @@ by Hitesh Choudhary.
 
 ---
 
-## 🧰 Setup & Installation
-1️⃣ Clone the Repository
+⚙️ Installation and Setup
+1️⃣ Clone the repository:
 git clone https://github.com/HemantS1609/full-stack-backend.git
-cd full-stack-backend
 
-2️⃣ Install Dependencies
+2️⃣ Install dependencies:
+cd full-stack-backend
 npm install
 
-3️⃣ Create a .env File
+3️⃣ Set up environment variables:
 
-Add the following environment variables:
+Create a .env file in the root of your project and fill in the required values as shown below:
 
 PORT=8000
 MONGODB_URI=mongodb+srv://your_mongodb_connection_url
@@ -105,17 +105,15 @@ CLOUDINARY_NAME=your_cloudinary_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 
-4️⃣ Start the Server
-
-Development Mode
-
+4️⃣ Start the server:
+Development mode:
 npm run dev
 
-Production Mode
-
+Production mode:
 npm start
 
-Server will run at:
+
+Server will start on:
 ➡️ http://localhost:8000
 
 🤝 Contributing
